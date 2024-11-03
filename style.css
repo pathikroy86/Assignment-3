@@ -3,3 +3,8 @@
 .body-font {
     font-family: "Manrope", sans-serif;
 }
+
+.positioning {
+    left: 10px;
+    bottom: -180px;
+}

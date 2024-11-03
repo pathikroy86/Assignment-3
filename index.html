@@ -14,17 +14,17 @@
     <script src="https://kit.fontawesome.com/bbfa251da8.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="body-font">
+<body class="body-font w-full">
     <!--Header start-->
-    <header class="w-5/6 mx-auto">
+    <header class="w-11/12 lg:w-5/6 mx-auto">
         <!--Navbar starts-->
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                    <div class="bg-[#ABEF5F] px-3 py-1 rotate-45 rounded-full">
+                    <div class="bg-[#ABEF5F] px-2 lg:px-3 py-0 lg:py-1 rotate-45 rounded-full">
                         <i class="fa-solid fa-up-long"></i>
                     </div>
-                    <a class="text-4xl ms-2 font-extrabold">Rinterio</a>
+                    <a class="text-2xl lg:text-4xl ms-2 font-extrabold">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -55,22 +55,71 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            <li><a class="text-[494949] font-extrabold">Home</a></li>
+                            <li><a class="text-[#737373]">Services</a></li>
+                            <li><a class="text-[#737373]">Portfolio</a></li>
+                            <li><a class="text-[#737373]">Blogs</a></li>
+                            <li><a class="text-[#737373]">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
         <!--Nav Bar ends-->
+        <!--Banner Starts-->
+        <section class="w-5/6 mx-auto text-center mb-4 lg:mb-16">
+            <figure class="mb-4 lg:mb-8"><img class="w-full" src="assets/banner.png" alt=""></figure>
+            <h1 class="text-3xl lg:text-6xl font-extrabold mb-4 lg:mb-8">A barn house of this design has a <br> striking
+                appearance
+            </h1>
+            <p class="text-[#494949] font-medium mb-4 lg:mb-8">The barn house captivates with its blend of rustic charm
+                and modern
+                sophistication, featuring weathered
+                wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+            <a class="btn bg-[#ABEF5F80] rounded-3xl lg:text-xl font-bold">Book Consult
+                <div class="bg-[#ABEF5F] px-2 lg:px-3 py-1 lg:py-1 rotate-45 rounded-full">
+                    <i class="fa-solid fa-up-long"></i>
+                </div>
+            </a>
+        </section>
+        <!--Banner ends-->
     </header>
+    <!--Header ends-->
+    <main class="bg-[#4949491A]">
+        <section class="w-11/12 lg:w-5/6 mx-auto py-20 grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <figure class="hidden lg:block absolute positioning"><img src="assets/Vector.png" alt=""></figure>
+            <div class="space-y-5 relative">
+                <div class="flex lg:block justify-center">
+                    <p class="w-fit font-bold bg-white px-4 py-1 rounded-3xl text-center lg:text-left"><i
+                            class="fa-solid fa-arrow-right"></i> About
+                        Us</p>
+                </div>
+
+                <h1 class="text-2xl lg:text-4xl font-bold text-[#212121]">We design thoughtful, <br> liveable spaces
+                </h1>
+                <p class="text-[#494949] font-medium">We create spaces that are not only livable but also enriching,
+                    ensuring that every environment
+                    contributes positively to the lives of those who experience it.</p>
+                <div class="flex gap-4 bg-white px-5 py-3 rounded-2xl">
+                    <img src="assets/commercial.png" alt="">
+                    <div>
+                        <h3 class="text-[#494949] text-xl font-extrabold">Commercial</h3>
+                        <p class="text-[#737373] font-medium">We create attractive commercial <br> building design</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 bg-white px-5 py-3 rounded-2xl">
+                    <img src="assets/residential.png" alt="">
+                    <div>
+                        <h3 class="text-[#494949] text-xl font-extrabold">Residential</h3>
+                        <p class="text-[#737373] font-medium">We design afforbale, lucrative <br>residential places.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="assets/Rectangle.png" alt="">
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
