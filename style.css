@@ -8,3 +8,15 @@
     left: 10px;
     bottom: -180px;
 }
+
+.abstract-bg {
+    background-image: url(assets/5026563.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paper-bg {
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
